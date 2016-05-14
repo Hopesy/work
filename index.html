@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="logo.ico">
+    <meta charset="UTF-8">
+    <title>JAVASCRIPT控制网页字体的大小</title>
+</head>
+<body background="background-1.jpg" style="zoom: 1;">
+<center id="hh">
+    <div id="dd">
+    <font size="1">Javascript控制网页中的字体的大小</font><br><br>
+    <font  size="1">示例</font><br>
+    </div>
+
+    <br>
+    <br>
+    <br>
+   <div>
+       <input type="button" value="小" onclick="zitixiao();"/>&nbsp;&nbsp;&nbsp;
+       <input type="button" value="中" onclick="zitizhong();"/>&nbsp;&nbsp;&nbsp;
+       <input type="button" value="大"onclick="zitida();" />
+   </div>
+</center>
+<script>
+    function zitixiao()
+    {
+        document.getElementById("dd").style.color="blue"
+        document.getElementById("dd").style.fontSize="5px";
+    };
+    function zitizhong()
+    {
+        document.getElementById("dd").style.color="green";
+        document.getElementById("dd").style.fontSize="10px";
+    };
+    function zitida()
+    {
+        document.getElementById("dd").style.color="red";
+        document.getElementById("dd").style.fontSize="20px";
+    }
+
+
+</script>
+
+</body>
+</html>
